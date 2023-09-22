@@ -21,6 +21,8 @@ const config: Config = {
       "gray-dark": "#70706E",
       "gray-light": "#FAFAFA",
       black: "#232321",
+      shadow: "#00000080",
+      transparent: "#00000000",
     },
     fontFamily: {
       head: ["Rubik", "sans-serif"],

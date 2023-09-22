@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div className="bg-gray w-screen h-screen">
-          <div className="px-14 py-8 w-full">
+      <body className="bg-gray">
+        <div className="w-screen min-h-full">
+          <div className="mx-auto py-8 w-[1320px]">
             <nav className="bg-white p-8 mb-6 rounded-3xl w-full flex items-center">
               <div className="flex-1">
                 <span className="font-head mr-10">New Drops 🔥</span>
