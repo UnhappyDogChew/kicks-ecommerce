@@ -7,7 +7,7 @@ export default function Home() {
         </h2>
       </header>
       <main>
-        <section className="w-full h-[46.875rem] rounded-[4rem] bg-blue overflow-clip relative">
+        <section className="w-desktop h-[46.875rem] rounded-[4rem] bg-blue overflow-clip relative m-auto">
           <img
             className="w-full h-full object-cover absolute top-0 left-0"
             src="/images/main_banner_01.jpeg"
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="mt-20">
+        <section className="mt-20 w-desktop m-auto">
           <div className="flex justify-between items-end">
             <h2 className="flex-1 font-head text-7xl uppercase">
               Don't miss out <br />
@@ -117,6 +117,47 @@ export default function Home() {
               </div>
             </div>
             {/* stock item end */}
+          </div>
+        </section>
+        <section className="bg-black mt-32">
+          <div className="pt-24 flex justify-between items-end w-desktop mx-auto">
+            <h2 className="font-head text-7xl uppercase text-white">
+              Categories
+            </h2>
+            <div className="flex gap-4">
+              <button className="flex justify-center items-center rounded-lg bg-gray-dark px-3 py-3">
+                <img src="/icons/chevron_backward.svg"></img>
+              </button>
+              <button className="flex justify-center items-center rounded-lg bg-white px-3 py-3">
+                <img src="/icons/chevron_forward.svg"></img>
+              </button>
+            </div>
+          </div>
+          <div className="mt-8 ml-[calc((100vw-theme(spacing.desktop))/2)] bg-[#f6f6f6] h-[37.5rem] rounded-tl-[4rem] flex overflow-hidden">
+            {/* category item start */}
+            <div className="w-[43.125rem] px-16 relative bg-[#eceef0] flex items-center">
+              <img className="-scale-x-100" src="/images/cat_01.png"></img>
+              <h3 className="absolute left-12 bottom-7 font-head text-3xl uppercase">
+                Lifestyle
+                <br />
+                shoes
+              </h3>
+              <button className="p-2 rounded-lg bg-black absolute right-14 bottom-7">
+                <img src="/icons/arrow_trend_right_up.svg"></img>
+              </button>
+            </div>
+            {/* category item start */}
+            <div className="w-[43.125rem] px-16 relative bg-[#f6f6f6] flex items-center">
+              <img src="/images/cat_02.png"></img>
+              <h3 className="absolute left-12 bottom-7 font-head text-3xl uppercase">
+                Basketball
+                <br />
+                shoes
+              </h3>
+              <button className="p-2 rounded-lg bg-black absolute right-14 bottom-7">
+                <img src="/icons/arrow_trend_right_up.svg"></img>
+              </button>
+            </div>
           </div>
         </section>
       </main>

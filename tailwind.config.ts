@@ -8,10 +8,10 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: "480px",
+      sm: "24.375rem",
       md: "768px",
       lg: "976px",
-      xl: "1440px",
+      xl: "90rem",
     },
     colors: {
       blue: "#4A69E2",
@@ -28,7 +28,11 @@ const config: Config = {
       head: ["Rubik", "sans-serif"],
       sans: ["Open Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        desktop: "82.5rem",
+      },
+    },
   },
   plugins: [],
 };

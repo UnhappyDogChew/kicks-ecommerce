@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray">
-        <div className="layout w-screen min-h-full">
-          <div className="content py-8">
-            <nav className="bg-white p-8 mb-6 rounded-3xl w-full flex items-center">
+        <div className="layout w-screen">
+          <div className="py-8">
+            <nav className="bg-white p-8 mb-6 rounded-3xl flex items-center mx-auto w-desktop">
               <div className="flex-1">
                 <span className="font-head mr-10">New Drops 🔥</span>
                 <span className="font-head mr-10">Men ▾</span>
