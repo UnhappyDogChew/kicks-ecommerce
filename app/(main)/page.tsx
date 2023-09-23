@@ -21,7 +21,7 @@ export default function Home() {
                 Nike introducing the new air max for <br />
                 everyone's comfort
               </p>
-              <button className="flex h-12 py-2 px-8 justify-center items-center self-stretch bg-blue text-white font-head text-sm uppercase rounded-lg">
+              <button className="flex h-12 py-2 px-8 justify-center items-center bg-blue text-white font-head text-sm uppercase rounded-lg">
                 Shop now
               </button>
             </div>
@@ -45,7 +45,80 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section></section>
+        <section className="mt-20">
+          <div className="flex justify-between items-end">
+            <h2 className="flex-1 font-head text-7xl uppercase">
+              Don't miss out <br />
+              new drops
+            </h2>
+            <button className="flex h-12 py-2 px-8 justify-center items-center bg-blue text-white font-head text-sm uppercase rounded-lg">
+              show new drops
+            </button>
+          </div>
+          <div className="flex mt-8 gap-4">
+            {/* stock item start */}
+            <div className="w-[19.875rem]">
+              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
+                <img className="w-full h-full" src="/images/stock_01.png"></img>
+                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
+                  New
+                </div>
+              </div>
+              <h3 className="font-head text-2xl uppercase mt-4">
+                Adidas 4dfwd x parley running shoes
+              </h3>
+              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
+                view product - <span className="text-orange"> $125</span>
+              </div>
+            </div>
+            {/* stock item start */}
+            <div className="w-[19.875rem]">
+              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
+                <img className="w-full h-full" src="/images/stock_02.png"></img>
+                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
+                  New
+                </div>
+              </div>
+              <h3 className="font-head text-2xl uppercase mt-4">
+                Adidas 4dfwd x parley running shoes
+              </h3>
+              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
+                view product - <span className="text-orange"> $125</span>
+              </div>
+            </div>
+            {/* stock item start */}
+            <div className="w-[19.875rem]">
+              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
+                <img className="w-full h-full" src="/images/stock_03.png"></img>
+                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
+                  New
+                </div>
+              </div>
+              <h3 className="font-head text-2xl uppercase mt-4">
+                Adidas 4dfwd x parley running shoes
+              </h3>
+              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
+                view product - <span className="text-orange"> $125</span>
+              </div>
+            </div>
+            {/* stock item start */}
+            <div className="w-[19.875rem]">
+              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
+                <img className="w-full h-full" src="/images/stock_04.png"></img>
+                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
+                  New
+                </div>
+              </div>
+              <h3 className="font-head text-2xl uppercase mt-4">
+                Adidas 4dfwd x parley running shoes
+              </h3>
+              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
+                view product - <span className="text-orange"> $125</span>
+              </div>
+            </div>
+            {/* stock item end */}
+          </div>
+        </section>
       </main>
     </>
   );
