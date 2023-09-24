@@ -160,6 +160,97 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="mx-auto w-desktop">
+          <div className="mt-32 flex justify-between items-end">
+            <h2 className="font-head text-7xl uppercase">Reviews</h2>
+            <button className="flex h-12 py-2 px-8 justify-center items-center bg-blue text-white font-head text-sm uppercase rounded-lg">
+              See all
+            </button>
+          </div>
+          <div className="mt-12 flex gap-4">
+            <div className="bg-blue w-[26.8125rem] h-[32rem] rounded-3xl overflow-hidden flex flex-col">
+              <div className="p-8 h-[11rem] bg-white grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_auto] gap-2">
+                <h3 className="font-head text-2xl col-start-1 row-start-1">
+                  Good Quality
+                </h3>
+                <div className="w-16 h-16 rounded-[2rem] overflow-hidden col-start-2 row-span-2">
+                  <img src="/images/user_01.svg"></img>
+                </div>
+                <p className="font-sans text-base col-start-1 row-start-2">
+                  I highly recommend shopping from kicks
+                </p>
+                <div className="font-semibold text-base flex items-center col-start-1 row-start-3">
+                  <span className="-translate-y-[2px]">
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                  </span>
+                  5.0
+                </div>
+              </div>
+              <img
+                className="object-cover flex-1 object-center"
+                src="/images/review_01.png"
+              ></img>
+            </div>
+            <div className="bg-blue w-[26.8125rem] h-[32rem] rounded-3xl overflow-hidden flex flex-col">
+              <div className="p-8 h-[11rem] bg-white grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_auto] gap-2">
+                <h3 className="font-head text-2xl col-start-1 row-start-1">
+                  Good Quality
+                </h3>
+                <div className="w-16 h-16 rounded-[2rem] overflow-hidden col-start-2 row-span-2">
+                  <img src="/images/user_02.svg"></img>
+                </div>
+                <p className="font-sans text-base col-start-1 row-start-2">
+                  I highly recommend shopping from kicks
+                </p>
+                <div className="font-semibold text-base flex items-center col-start-1 row-start-3">
+                  <span className="-translate-y-[2px]">
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                  </span>
+                  5.0
+                </div>
+              </div>
+              <img
+                className="object-cover flex-1 object-center"
+                src="/images/review_02.png"
+              ></img>
+            </div>
+            <div className="bg-blue w-[26.8125rem] h-[32rem] rounded-3xl overflow-hidden flex flex-col">
+              <div className="p-8 h-[11rem] bg-white grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_auto] gap-2">
+                <h3 className="font-head text-2xl col-start-1 row-start-1">
+                  Good Quality
+                </h3>
+                <div className="w-16 h-16 rounded-[2rem] overflow-hidden col-start-2 row-span-2">
+                  <img src="/images/user_03.svg"></img>
+                </div>
+                <p className="font-sans text-base col-start-1 row-start-2">
+                  I highly recommend shopping from kicks
+                </p>
+                <div className="font-semibold text-base flex items-center col-start-1 row-start-3">
+                  <span className="-translate-y-[2px]">
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                    <img className="inline-block" src="/icons/star.svg"></img>
+                  </span>
+                  5.0
+                </div>
+              </div>
+              <img
+                className="object-cover flex-1 object-center"
+                src="/images/review_03.png"
+              ></img>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
