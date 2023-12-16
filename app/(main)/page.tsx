@@ -1,3 +1,5 @@
+import ListItem from "./component/listItem";
+
 export default function Home() {
   return (
     <>
@@ -56,67 +58,30 @@ export default function Home() {
             </button>
           </div>
           <div className="flex mt-8 gap-4">
-            {/* stock item start */}
-            <div className="w-[19.875rem]">
-              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
-                <img className="w-full h-full" src="/images/stock_01.png"></img>
-                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
-                  New
-                </div>
-              </div>
-              <h3 className="font-head text-2xl uppercase mt-4">
-                Adidas 4dfwd x parley running shoes
-              </h3>
-              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
-                view product - <span className="text-orange"> $125</span>
-              </div>
-            </div>
-            {/* stock item start */}
-            <div className="w-[19.875rem]">
-              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
-                <img className="w-full h-full" src="/images/stock_02.png"></img>
-                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
-                  New
-                </div>
-              </div>
-              <h3 className="font-head text-2xl uppercase mt-4">
-                Adidas 4dfwd x parley running shoes
-              </h3>
-              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
-                view product - <span className="text-orange"> $125</span>
-              </div>
-            </div>
-            {/* stock item start */}
-            <div className="w-[19.875rem]">
-              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
-                <img className="w-full h-full" src="/images/stock_03.png"></img>
-                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
-                  New
-                </div>
-              </div>
-              <h3 className="font-head text-2xl uppercase mt-4">
-                Adidas 4dfwd x parley running shoes
-              </h3>
-              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
-                view product - <span className="text-orange"> $125</span>
-              </div>
-            </div>
-            {/* stock item start */}
-            <div className="w-[19.875rem]">
-              <div className="w-[19.875rem] h-[21.875rem] rounded-3xl bg-gray-light border-white border-8 relative overflow-hidden">
-                <img className="w-full h-full" src="/images/stock_04.png"></img>
-                <div className="absolute top-0 left-0 bg-blue font-head text-xs text-white rounded-tl-3xl rounded-br-3xl px-4 py-3 m-0">
-                  New
-                </div>
-              </div>
-              <h3 className="font-head text-2xl uppercase mt-4">
-                Adidas 4dfwd x parley running shoes
-              </h3>
-              <div className="flex justify-center items-center px-8 py-3 rounded-lg bg-black text-white uppercase text-sm mt-4">
-                view product - <span className="text-orange"> $125</span>
-              </div>
-            </div>
-            {/* stock item end */}
+            <ListItem
+              imageUrl="/images/stock_01.png"
+              tag="new"
+              name="Adidas 4dfwd x parley running shoes"
+              price={125}
+            ></ListItem>
+            <ListItem
+              imageUrl="/images/stock_02.png"
+              tag="new"
+              name="Adidas 4dfwd x parley running shoes"
+              price={125}
+            ></ListItem>
+            <ListItem
+              imageUrl="/images/stock_03.png"
+              tag="new"
+              name="Adidas 4dfwd x parley running shoes"
+              price={125}
+            ></ListItem>
+            <ListItem
+              imageUrl="/images/stock_04.png"
+              tag="new"
+              name="Adidas 4dfwd x parley running shoes"
+              price={125}
+            ></ListItem>
           </div>
         </section>
         <section className="bg-black mt-32">
